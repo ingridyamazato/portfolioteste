@@ -1,0 +1,108 @@
+*{background-color: black; 
+  font-family:'Maven Pro';
+
+}
+
+.menu {
+    overflow: auto;
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .menu a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+.titulo{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p{
+max-width: 600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+text-align: justify;
+color: white;
+}
+
+
+.media {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+#foto1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60%;
+  width: 10%;
+height: auto;
+}
+
+#foto2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+#foto3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box; 
+
+    
+  }
+  
+  
+  input[type=enviar] {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=enviar]:hover {
+    background-color: #6b6b6b;
+  }
+  
